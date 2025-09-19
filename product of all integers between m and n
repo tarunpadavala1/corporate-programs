@@ -1,0 +1,9 @@
+m = int(input("enter the first number:"))
+n = int(input("enter the second number:"))
+mul = 1
+if m>n:
+    print("invalid")
+else:
+    for i in range(m,n+1):
+        mul = mul*i
+    print(mul)
